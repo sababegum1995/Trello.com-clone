@@ -1,0 +1,1030 @@
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+/* heading section */
+.header{
+width: 100vw;
+height: 80px;
+background-color: white;
+}
+.flex{
+    display: flex;
+}
+.left-logo{
+justify-content: left;
+width: 120px;
+height: 60px;
+margin-top: 10px;
+margin-left: 10px;
+}
+.menu-list1{
+    font-size: 16px;
+    font-weight: 350;
+    margin-left: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.menu-list2{
+    font-size: 16px;
+    font-weight: 350;
+    margin-left: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.menu-list3{
+    font-size: 16px;
+    font-weight: 350;
+    margin-left: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.menu-list4{
+    font-size: 16px;
+    font-weight: 350;
+    margin-left: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.menu-list5{
+    font-size: 16px;
+    font-weight: 350;
+    margin-left: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.menu-list1:hover{
+   color:  rgb(0, 101, 255);
+}
+.menu-list2:hover{
+    color:  rgb(0, 101, 255);
+ }
+ .menu-list3:hover{
+    color:  rgb(0, 101, 255);
+ }
+ .menu-list4:hover{
+    color:  rgb(0, 101, 255);
+ }
+ .menu-list5:hover{
+    color:  rgb(0, 101, 255);
+ }
+.downarrow{
+    width: 12px;
+    height: 10px;
+    margin-top: 24px;
+    margin-left: 2px;
+}
+.login{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 3px;
+    margin-left: 420px;
+    cursor: pointer;
+}
+.login1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 1px;
+    margin-left: 15px;
+    border: 1px solid rgb(0, 101, 255);
+    width: 180px;
+    height: 50px;
+    padding: 3px 5px 18px 18px;
+    background-color: rgb(0, 101, 255);
+    color: white;
+    cursor: pointer;
+}
+.login1:hover{
+    background-color: rgb(4, 66, 160);
+}
+/* main-section */
+.main-section{
+    background: rgb(180,60,214);
+    background: linear-gradient(74deg, rgba(180,60,214,1) 27%, rgba(173,68,219,1) 28%, rgba(221,15,183,1) 100%);width: 100vw;
+    height: 500px;
+    margin-top: -80px;
+}
+.email-content{ 
+    width: 450px;
+    height: 220px;
+    justify-content: left;
+    margin-left: 20px;
+}
+.email-content h1{
+    margin-top: 80px;
+    margin-left: 80px;
+    color: white;
+    padding-top: 70px;
+    font-size: 38px;
+}
+.email-content1{
+    width: 580px;
+    height: 80px;
+    justify-content: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.email-content1 p{
+    margin-left: 80px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.email-content2{
+    width: 560px;
+    height: 100px;
+    justify-content: left;
+    margin-left: 20px;
+}
+.email-content2 input{
+    height: 50px;
+    width: 290px;
+    border-radius: 8px;
+    margin-left: 80px;
+    border: none;
+    margin-top: 30px;
+}
+input{
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.sign-up{
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid rgb(0, 101, 255);
+    width: 180px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgb(0, 101, 255);
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+.sign-up p{
+margin-top: -5px;
+padding: 3px 0px 0px 2px;
+}
+.sign-up:hover{
+    background-color: rgb(4, 66, 160);
+}
+.watch-video{
+    width: 180px;
+    height: 40px;
+    margin-left: 105px;
+    cursor: pointer;
+}
+.watch-video p{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    margin-left: -2px;
+    text-decoration: underline;
+}
+.video-logo{
+height: 20px;
+width: 20px;
+color: white;
+margin-top: 16px;
+margin-left: 8px;
+cursor: pointer;
+}
+/* right-picture-section */
+.picture-right{
+width: 500px;
+height: 400px;
+margin-top: -410px;
+margin-left: 750px;
+}
+.picture-right img{
+width:600px;
+height: 520px;
+}
+/* middle-section */
+.middle-section-background{
+    background: rgb(250,246,246);
+    background: linear-gradient(180deg, rgba(250,246,246,0.9962359943977591) 35%, rgba(205,248,241,1) 69%);
+    width: 100vw;
+    height: 800px;
+}
+.middle-section{
+    height: 20px;
+    width: 200px;
+    margin-top: -13px;
+    margin-left: 100px;
+}
+.middle-section p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.middle-section1{
+    height: 60px;
+    width: 600px;
+    margin-left: 100px;
+}
+.middle-section2{
+    height: 80px;
+    width:500px;
+    margin-left: 100px;
+}
+.middle-section2 p{
+    font-size: 18px;
+    font-weight: 450;
+}
+.guide{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: rgb(0, 82, 204);
+    cursor: pointer;
+    margin-top: 58px;
+    margin-left: -250px;
+}
+.boards-border{
+    border: 1px solid white;
+    width: 300px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 20px;
+    box-shadow: 0px 6px 18px 6px white;
+    background-color: white;
+    border-left: 8px solid rgb(0, 199, 229);
+    border-top-left-radius: 8px;
+}
+.boards-border h3{
+font-weight: 500;
+font-size: 16px;
+margin-left: 12px;
+}
+.boards-border p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+.picture-right2{
+    width: 500px;
+    height: 400px;
+    margin-top: -500px;
+    margin-left: 480px;
+    }
+.picture-right2 img{
+    width:800px;
+    height: 520px;
+    }
+/* middle-section1 */
+.middle-section-top{
+    height: 20px;
+    width: 200px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.middle-section-top p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.middle-section1{
+    height: 60px;
+    width: 600px;
+    margin-left: 100px;
+}
+/* cards-section */
+.cards-section{
+    border: 1px solid white ;
+    width: 320px;
+    height: 180px;
+    margin-left: 100px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 4px 3px lightslategray;
+    border-top: 42px solid rgb(255, 116, 82);
+    border-radius: 8px;
+    position: relative;
+}
+.cards-section1{
+    border: 1px solid white ;
+    width: 320px;
+    height: 180px;
+    margin-left: 40px;
+    box-shadow: 0px 2px 4px 3px lightslategray;
+    border-top: 42px solid rgb(38, 132, 255);
+    border-radius: 8px;
+    position: relative;
+    margin-top: 20px;
+}
+.cards-section2{
+    border: 1px solid white ;
+    width: 320px;
+    height: 180px;
+    margin-left: 40px;
+    box-shadow: 0px 2px 4px 3px lightslategray;
+    border-top: 42px solid rgb(87, 217, 163);
+    border-radius: 8px;
+    position: relative;
+    margin-top: 20px;
+}
+.folder-img img{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+    top:-20px;
+    left:25px;
+}
+.folder-img h3{
+    margin-left: 20px;
+    margin-top: 35px;
+    font-size: 20px;
+}
+.folder-img p{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.para{
+    width: 680px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.explore{
+    border: 1px solid rgb(0, 101, 255);
+    width: 180px;
+    height: 60px;
+    margin-left: 120px;
+    margin-top: 50px ;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.explore p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.explore:hover{
+    background-color: lightblue;
+}
+.blue-background{
+   background: rgb(0,101,255);
+   background: linear-gradient(239deg, rgba(0,101,255,1) 13%, rgba(34,193,195,1) 87%);
+    height: 950px;
+    width: 100vw;
+    margin-top: 80px;
+}
+.heading1{
+    height: 80px;
+    width:600px;
+    margin-left: 450px;
+    margin-top:60px;
+    padding: 20px;
+}
+.heading1 h2{
+    font-weight: 500;
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.paragraph{
+    height: 80px;
+    width:700px;
+   text-align: center;
+   margin-left: -120px;
+   margin-top: -35px;
+}
+.paragraph p{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-top: 50px;
+}
+.discover-button{
+    border: 1px solid white;
+    border-radius: 6px;
+    height: 50px;
+    width: 210px;
+    color: black;
+    background-color: white;
+    margin-left: 590px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+.discover-button:hover{
+    background-color: lightblue;
+}
+.discover-button p{
+    font-size: 17px;
+    font-weight: 400;
+    padding: 0px 5px 5px 8px;
+    margin-left: 8px;
+    margin-top: 12px;
+}
+.white-section1{
+    border: 1px solid white;
+    background-color: white;
+    height: 380px;
+    width: 1100px;
+    margin-left: 100px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.image img{
+    width: 580px;
+    height: 320px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.image-2 img{
+    width: 580px;
+    height: 320px;
+    margin-top: -403px;
+    margin-left: 440px;
+}
+.right-section1{
+    width: 680px;
+    height: 320px;
+    margin-top: 20px;
+}
+.right-section1 svg{
+    width: 30px;
+    height: 30px;
+    color: rgb(85, 66, 252);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.right-section1 h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: -30px;
+    margin-left: 80px;
+}
+.annual-planning{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 420px;
+    height: 180px;
+}
+.annual-planning p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.guide1{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: rgb(0, 82, 204);
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 1px;
+}
+.text-section{
+    margin-top: 180px;
+    margin-left: 110px;
+}
+.text-section p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.text-section h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.text-section2{
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.text-section2 p{
+    font-size: 20px;
+    font-weight:400;
+    width: 600px;
+    height: 200px;
+}
+.cards-new{
+    border: 1px solid rgb(250, 251, 252);
+    height: 350px;
+    width: 320px;
+    margin-top: -120px;
+    margin-left: 100px;
+    background-color: rgb(250, 251, 252);
+}
+.cards-new svg{
+    width: 120px;
+    height: 120px;
+}
+.cards-new h3{
+    margin-top: 2px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.cards-new p{
+    margin-top: 2px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.discover-button1{
+    border: 1px solid rgb(0, 82, 204);
+    border-radius: 6px;
+    height: 50px;
+    width: 210px;
+    color: black;
+    background-color: white;
+    margin-top: 13px;
+    cursor: pointer;
+}
+.discover-button1 p{
+    margin-left: 25px;
+    margin-top: 12px;
+}
+.discover-button1:hover{
+    background-color: lightblue;
+}
+.discover-button2{
+    border: 1px solid rgb(0, 82, 204);
+    border-radius: 6px;
+    height: 50px;
+    width: 240px;
+    color: black;
+    background-color: white;
+    margin-top: 13px;
+    cursor: pointer;
+}
+.discover-button2 p{
+    margin-left: 25px;
+    margin-top: 12px;
+}
+.discover-button2:hover{
+    background-color: lightblue;
+}
+.discover-button3{
+    border: 1px solid rgb(0, 82, 204);
+    border-radius: 6px;
+    height: 50px;
+    width: 240px;
+    color: black;
+    background-color: white;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.discover-button3 p{
+    margin-left: 25px;
+    margin-top: 12px;
+}
+.discover-button3:hover{
+    background-color: lightblue;
+}
+.background{
+    background: rgb(255,251,251);
+    background: linear-gradient(183deg, rgba(255,251,251,0.9934348739495799) 64%, rgba(173,246,223,1) 91%);
+    height: 800px;
+    width: 100vw;
+    margin-top: 20px;
+}
+.white-background{
+    margin-top: 50px;
+    margin-left: 100px;
+    border: 1px solid lightgray;
+    border-top-left-radius: 8px;
+    width: 740px;
+    height: 380px;
+    background-color: white;
+}
+.white-background p{
+    height: 170px;
+    width: 620px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: -220px;
+    margin-left: 20px;
+}
+.small-border{
+    border-top: 1px solid black;
+    width: 180px;
+    margin-left: 20px;
+}
+.small-para p{
+font-size: 15px;
+font-weight: 400;
+margin-top: 5px;
+}
+.small-para1 p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -160px;
+}
+.logoo{
+    border: 1px solid white;
+    height: 1px;
+    width: 1px;
+    margin-top: -90px;
+}
+.logoo svg{
+    height: 80px;
+    width: 90px;
+    margin-left: 20px;
+    margin-top: -850px;
+}
+.guide2{
+    text-decoration: underline;
+    color: rgb(0, 82, 204);
+    cursor: pointer;
+    margin-top: 180px;
+    margin-left: 560px;
+}
+.guide2 p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.rules{
+    background: rgb(180,60,214);
+    background: linear-gradient(74deg, rgba(180,60,214,1) 27%, rgba(173,68,219,1) 28%, rgba(221,15,183,1) 100%);width: 100vw;
+    height: 380px;
+    width: 425px;
+    border-top-right-radius: 8px;
+    margin-left: 840px;
+    margin-top: -412px;
+}
+.rules h3{
+    width: 280px;
+    height: 270px;
+    font-size: 33px;
+    font-weight: 500;
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.guide3{
+    width: 400px;
+    height: 50px;
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-left: 50px;
+}
+.guide3 p{
+    font-size: 16px;
+    font-weight: 400;
+}
+/* light-blue-section */
+.light-blue-background{
+ }
+ .heading2{
+     height: 80px;
+     width:600px;
+     margin-left: 480px;
+     margin-top:60px;
+     padding: 20px;
+ }
+ .heading2 h2{
+     font-weight: 500;
+     font-size: 40px;
+     margin-top: 40px;
+     color: black;
+ }
+ .paragraph1{
+     height: 80px;
+     width:700px;
+    text-align: center;
+    margin-left: -160px;
+    margin-top: -35px;
+ }
+ .paragraph1 p{
+     font-size: 20px;
+     font-weight: 400;
+     color: black;
+     margin-top: 50px;
+ }
+ .discover-buttonn{
+    border: 1px solid rgb(0, 101, 255);
+     border-radius: 6px;
+     height: 50px;
+     width: 150px;
+     color: black;
+     background-color: rgb(0, 101, 255);;
+     margin-left: 600px;
+     margin-top: 80px;
+     cursor: pointer;
+ }
+ .discover-buttonn:hover{
+    background-color: rgb(4, 66, 160);
+ }
+ .discover-buttonn p{
+     font-size: 17px;
+     font-weight: 400;
+     padding: 0px 5px 5px 8px;
+     margin-left: 8px;
+     margin-top: 12px;
+ }
+ /* subscribe-cards */
+ .subscribe{
+    width:1100px;
+    height: 500px;
+    margin-left: 70px;
+    margin-top: 50px;
+ }
+ .s-cards{
+    border:1px solid lightslategray;
+    width:280px;
+    height: 480px;
+ }
+ .s-cards h3{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+ }
+ .flex span{
+    margin-top: 30px;
+    margin-left: 20px;
+ }
+ .flex h6{
+    margin-top: 35px;
+    margin-left: -1px;
+    font-weight: 400;
+ }
+ .zero span{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 2px;
+    margin-right: 2px;
+ }
+ .explore-cards{
+    border: 1px solid rgb(0, 101, 255);
+    width: 130px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 80px ;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.explore-cardss{
+    border: 1px solid rgb(0, 101, 255);
+    width: 130px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 115px ;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.explore-cardsss{
+    border: 1px solid rgb(0, 101, 255);
+    width: 130px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 60px ;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.explore-cards p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 28px;
+    margin-top: 15px;
+}
+.explore-cardss p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 28px;
+    margin-top: 15px;
+}
+.explore-cardsss p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.explore-cards:hover{
+    background-color: lightblue;
+}
+.subscribe1 p{
+margin-left: 20px;
+margin-top: -10px;
+font-size: 12px;
+}
+.subscribe1 h5{
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.guide-cards{
+    text-decoration: underline;
+    color: rgb(0, 82, 204);
+    cursor: pointer;
+    margin-left: -60px;
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    margin-left: -25px;
+}
+.guide-cards p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.promotion{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 210px;
+    margin-top: 50px;
+}
+.promotion-logo{
+    height: 100px;
+    width: 1100px;
+    margin-left: 40px;
+}
+.promotion-logo svg{
+    height: 100px;
+    width: 120px;
+}
+.rules-new{
+    background: rgb(180,60,214);
+    background: linear-gradient(74deg, rgba(180,60,214,1) 27%, rgba(173,68,219,1) 28%, rgba(221,15,183,1) 100%);width: 100vw;
+    height: 300px;
+    width: 100vw;
+    margin-left: -80px;
+    position: relative;
+}
+.left-img{
+    margin-left: 740px;
+    margin-top: -150px;
+}
+.centre-content{ 
+        width: 450px;
+        height: 220px;
+        justify-content: left;
+        margin-left: 20px;
+        position: absolute;
+        top:20px;
+    }
+.centre-content h2{
+    margin-left: 380px;
+    height: 50px;
+    width: 480px;
+    color: white;
+    font-size: 35px;
+    margin-top: 60px;
+}
+    .centre-content2{
+        width: 560px;
+        height: 100px;
+        justify-content: left;
+        margin-left: 320px;
+        position: absolute;
+        top:120px;
+    }
+    .centre-content2 input{
+        height: 50px;
+        width: 290px;
+        border-radius: 8px;
+        margin-left: 80px;
+        border: none;
+        margin-top: 30px;
+    }
+    input{
+        padding-left: 20px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .sign-up{
+        font-size: 20px;
+        font-weight: 400;
+        border: 1px solid rgb(0, 101, 255);
+        width: 180px;
+        height: 30px;
+        padding: 10px;
+        background-color: rgb(0, 101, 255);
+        color: white;
+        margin-top: 30px;
+        margin-left: 20px;
+        border-radius: 8px;
+        align-items: center;
+        cursor: pointer;
+    }
+    .sign-up p{
+    margin-top: -5px;
+    padding: 3px 0px 0px 2px;
+    }
+    .sign-up:hover{
+        background-color: rgb(4, 66, 160);
+    }
+.last-section{
+    width: 100vw;
+    height: 250px;
+    background-color: rgb(9, 30, 66);
+    margin-left: -80px;
+}
+.last-section1{
+    width: 1200px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.last-section1 svg{
+    height: 110px;
+    width: 110px;
+}
+.last-section1 p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 3px;
+    margin-left: 420px;
+    cursor: pointer;
+    color:white;
+    margin-left: 10px;
+}
+.last-section1 p:hover{
+    text-decoration: underline;
+}
+.small-cardss{
+    width: 220px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: -150px;
+    cursor: pointer;
+}
+.small-cardss:hover{
+    background-color: rgb(23, 43, 77)
+}
+.small-cardss h3{
+    color: white;
+}
+.small-cardss h5{
+    color: white;
+}
+.small-cardss1{
+    width: 220px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: -150px;
+    cursor: pointer;
+}
+.small-cardss1:hover{
+    background-color: rgb(23, 43, 77)
+}
+.small-cardss1 h3{
+    color: white;
+}
+.small-cardss1 h5{
+    color: white;
+    margin-top: -5px;
+}
+hr{
+    width: 100vw;
+    margin-left: -110px;
+}
+.information svg{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+.information p{
+    margin-top: 20px;
+    margin-left: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+.flex1 {
+    display: flex;
+}
+.flex1 svg{
+    margin-left: 80px;
+    cursor: pointer;
+}
+.flex11{
+    width: 520px;
+    height: 50px;
+    margin-left: 40px;
+    display: flex;
+    gap:30px;
+}
+.flex111{
+    width: 320px;
+    height: 50px;
+    margin-left: 105px;
+    display: flex;
+    gap:30px;
+    margin-top: 2px;
+}
+.flex11 p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.flex111 svg{
+    margin-top: 12px;
+    margin-left: 5px;
+   filter:invert(90%);
+   cursor: pointer;
+   height: 25px;
+   width: 25px;
+   border-radius: 50%;
+   border: 2px solid white;
+}
